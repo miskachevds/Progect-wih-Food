@@ -1,7 +1,7 @@
 function Home(){
     return(
         <div className="wrap">
-            Hello
+            <h1>Привет,скоро здесь будет слайдер буквально с тремя фотками рекламками.</h1>
         </div>
     )
 }
