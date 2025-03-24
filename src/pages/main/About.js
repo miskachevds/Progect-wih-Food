@@ -1,7 +1,8 @@
-function About(){
+function About({text}){
     return(
         <div className="wrap">
-            <h2>About</h2>
+            <h2>{text.title}</h2>
+            <p>{text.description}</p>
         </div>
     )
 }

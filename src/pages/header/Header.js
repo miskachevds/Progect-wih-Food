@@ -7,6 +7,7 @@ function Header(){
             <div className="logo"><Link to="/">Food</Link></div>
             <div className="right">
                 <ul>
+                    <li><Link to="/vacancies">Vacancies</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contacts">Contacts</Link></li>
                 </ul>
