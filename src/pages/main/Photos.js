@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { getAllPhotos } from "../../api";
+import Preloader from '../../components/preloader/Preloader';
+import CategoryList from "../../components/categoryList/CategoryList";
+// import { getAllPhotos } from "../../api";
 
 function Photos(){
     const [catalog, setCatalog] = useState([])
@@ -22,7 +24,9 @@ function Photos(){
 
     return(
         <div className="wrap">
-            <h2>Здесь будет вся Api фото</h2>
+            {
+                !catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />
+            }
         </div>
     )
 }
