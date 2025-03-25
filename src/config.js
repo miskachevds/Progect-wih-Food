@@ -1,5 +1,5 @@
 const API_KEY = "1";
 
-const API_URL = `http://opendata.trudvsem.ru/api/v1/${API_KEY}/`;
+const API_URL = `https://jsonplaceholder.typicode.com/${API_KEY}/`;
 
 export {API_URL};

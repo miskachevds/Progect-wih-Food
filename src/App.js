@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/main/Home';
-import Vacancies from './pages/main/Vacancies';
+import Photos from './pages/main/Photos';
 import About from './pages/main/About';
 import Contacts from './pages/main/Contacts';
 import NotFound from './pages/main/NotFound';
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path='/vacancies' element={<Vacancies />} />
+          <Route path='/photos' element={<Photos />} />
           <Route path='/about' element={<About text={text}/>} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='*' element={<NotFound />}/>
