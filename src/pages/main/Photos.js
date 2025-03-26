@@ -3,7 +3,7 @@ import Preloader from '../../components/preloader/Preloader';
 import CategoryList from "../../components/categoryList/CategoryList";
 // import { getAllPhotos } from "../../api";
 
-// function Photos(){
+function Photos(){
 //     const [catalog, setCatalog] = useState([])
 
 //     useEffect(() => {
@@ -24,9 +24,7 @@ import CategoryList from "../../components/categoryList/CategoryList";
 
     return(
         <div className="wrap">
-            {
-                !catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />
-            }
+            Hello
         </div>
     )
 }
