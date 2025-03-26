@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "idCategory": "1",
+      "strCategory": "Flat",
+      "strPrice": "38 290",
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/2327938185-1.jpg",
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
+    },
+    {
+      "idCategory": "2",
+      "strCategory": "Flat",
+      "strPrice": "550",
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/2395451791-1.jpg",
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
+    },
+    {
+      "idCategory": "3",
+      "strCategory": "Flat",
+      "strPrice": "3820 ",
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
+    },
+    {
+      "idCategory": "4",
+      "strCategory": "Home",
+      "strPrice": "5000",
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
+    },
+    {
+      "idCategory": "5",
+      "strCategory": "Home",
+      "strPrice": "11000",
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
+    }
+
+  ]
+}
+
+
