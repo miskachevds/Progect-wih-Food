@@ -4,14 +4,7 @@ import CategoryList from "../../components/categoryList/CategoryList";
 // import { getAllPhotos } from "../../api";
 
 function Photos(){
-//     const [catalog, setCatalog] = useState([])
 
-//     useEffect(() => {
-//         fetch('https://jsonplaceholder.typicode.com/photos')
-//         .then(response => response.json())
-//         .then(data => setCatalog(data))
-//         // console.log(catalog);
-//     })
 //     // const [catalog, setCatalog] = useState([])
 
     // useEffect(() => {
@@ -21,6 +14,14 @@ function Photos(){
     // },[]);
 
     // console.log(catalog);
+
+    const getData = async () => {
+        try {
+            const response = await axios.get('http://localhost:3001/categories')
+        } catch (erros) {
+
+        }
+    }
 
     return(
         <div className="wrap">
