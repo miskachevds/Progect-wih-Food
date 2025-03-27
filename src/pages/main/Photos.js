@@ -21,7 +21,7 @@ function Photos() {
         .then(response => response.json())
         .then(data => setCatalog(data))
     },[])
-
+        console.log(catalog)
     return (
         <div className="wrap">
             Hello Dimas
