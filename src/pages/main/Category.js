@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import FotoList from "../../components/FotoList";
+import Preloader from "../../components/preloader/Preloader";
 
 function Category(){
     const {name} = useParams();
@@ -16,7 +18,9 @@ function Category(){
 
     return(
         <div className="wrap">
-
+            {
+                !allCat.length ? <Preloader /> : <FotoList allCat={allCat} /> 
+            }
         </div>
     )
 }
