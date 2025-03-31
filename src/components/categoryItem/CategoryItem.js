@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import './CategoryItem.css'
+
 
 function CategoryItem({
     idCategory,
@@ -14,7 +16,7 @@ function CategoryItem({
             <p>{strPrice}</p>
 
             <div className="card-action">
-                <a href={`category/:name`}>Watch category</a>    
+                <Link to={`/category/${strCategory}`}>Watch category</Link>    
             </div>
         </div>
     )

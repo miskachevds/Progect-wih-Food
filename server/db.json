@@ -3,7 +3,7 @@
     {
       "idCategory": "1",
       "strCategory": "Flat-1",
-      "strPrice": "38 290",
+      "strPrice": "38290",
       "strCategoryThumb": "https://optim.tildacdn.com/tild3662-3332-4565-a439-363532633136/-/format/webp/xxlarge_________1-6.jpg",
       "strCategoryDescription": "Просторная студия с дизайнерским ремонтом в новом ЖК Яратам рядом с Горкинско-Ометьевским лесом. 10 минут до ТЦ МЕГА, 20 минут до центральной пешеходной улицы Баумана. В шаговoй дocтупнoсти прoдуктовые магaзины и кафе. Во дворе дома детская площадка, зона для отдыха, круглосуточное видеонаблюдение"
     },
@@ -17,7 +17,7 @@
     {
       "idCategory": "3",
       "strCategory": "Flat-3",
-      "strPrice": "3820 ",
+      "strPrice": "3820",
       "strCategoryThumb": "https://optim.tildacdn.com/tild3330-3634-4738-b336-646334356335/-/format/webp/xxlarge______-5.jpg",
       "strCategoryDescription": "Однокомнатная квартира в 5 минутах от ТЦ МЕГА в Советском районе. Рядом выезд на Вознесенский тракт. Казанский Кремль в 15 минутах езды, 20 минут до аквапарка Ривьера. До парка им. Горького (ТЦ Корстон) можно доехать за 10 минут. В 5-10 минутах ходьбы остановки общественного транспорта. В шаговой доступности продуктовый магазин Пятёрочка."
     },
@@ -54,37 +54,79 @@
   "allСategories": [
     {
       "idCategory": "1",
-      "strCategory": "Flat",
-      "strPrice": "38 290",
-      "strCategoryThumb": "https://images.cdn-cian.ru/images/2327938185-1.jpg",
+      "strCategory": "Flat-1",
+      "strPrice": "38290",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/2327938185-1.jpg",
+        "https://images.cdn-cian.ru/images/2327938185-1.jpg",
+        "https://images.cdn-cian.ru/images/2327938185-1.jpg"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
     },
     {
       "idCategory": "2",
-      "strCategory": "Flat",
+      "strCategory": "Flat-2",
       "strPrice": "550",
-      "strCategoryThumb": "https://images.cdn-cian.ru/images/2395451791-1.jpg",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/2395451791-1.jpg",
+        "https://images.cdn-cian.ru/images/2395451791-1.jpg",
+        "https://images.cdn-cian.ru/images/2395451791-1.jpg"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
     },
     {
       "idCategory": "3",
-      "strCategory": "Flat",
+      "strCategory": "Flat-3",
       "strPrice": "3820 ",
-      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "4",
-      "strCategory": "Home",
+      "strCategory": "Flat-4",
       "strPrice": "5000",
-      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "5",
-      "strCategory": "Home",
+      "strCategory": "Flat-5",
       "strPrice": "11000",
-      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
+      ],
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
+    },
+    {
+      "idCategory": "6",
+      "strCategory": "Flat-6",
+      "strPrice": "11000",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
+      ],
+      "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
+    },
+    {
+      "idCategory": "7",
+      "strCategory": "Flat-7",
+      "strPrice": "11000",
+      "strCategoryThumb": [
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
+        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     }
 

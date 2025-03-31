@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import Preloader from '../../components/preloader/Preloader';
 import CategoryList from "../../components/categoryList/CategoryList";
-// import { data } from "react-router-dom";
-// import { getAllCategories } from "../../api";
 
 function Photos() {
     // const [catalog, setCatalog] = useState([]);
@@ -12,7 +10,6 @@ function Photos() {
     //         setCatalog(data.categories);
     //     })
     // }, []);
-    // console.log(catalog);
     let [catalog, setCatalog] = useState([]);
 
     useEffect(() => {
@@ -20,7 +17,7 @@ function Photos() {
         .then(response => response.json())
         .then(data => setCatalog(data))
     },[])
-        console.log(catalog)
+        // console.log(catalog)
     return (
         <div className="wrap">
             {/* {catalog.length > 0 ? (
@@ -36,6 +33,5 @@ function Photos() {
         </div>
     )
 }
-
 export default Photos;
 
