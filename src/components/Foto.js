@@ -1,7 +1,8 @@
-function Foto({idCategory,strcategory,strPrice,strCategoryThumb,strCategoryDescription}) {
+
+function Foto({idCategory,strCategory,strPrice,strCategoryThumb,strCategoryDescription}) {
     return (
         <div className="card">
-            <img src={strCategoryThumb} alt="" />
+            <img src={strCategoryThumb} alt={strCategory} />
             <h1>{strCategoryDescription}</h1>
         </div>
     )

@@ -5,7 +5,7 @@ function FotoList({allCat}){
         <div className="list">
             {
                 allCat.map(item => (
-                    <Foto key={item} {...item} />
+                    <Foto key={item.idCategory} {...item} />
                 ))
             }
         </div>

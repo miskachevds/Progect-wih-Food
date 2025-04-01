@@ -56,77 +56,49 @@
       "idCategory": "1",
       "strCategory": "Flat-1",
       "strPrice": "38290",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/2327938185-1.jpg",
-        "https://images.cdn-cian.ru/images/2327938185-1.jpg",
-        "https://images.cdn-cian.ru/images/2327938185-1.jpg"
-      ],
+      "strCategoryThumb": "https://optim.tildacdn.com/tild3037-3939-4339-b637-323964313835/-/format/webp/1.png",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
     },
     {
       "idCategory": "2",
       "strCategory": "Flat-2",
       "strPrice": "550",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/2395451791-1.jpg",
-        "https://images.cdn-cian.ru/images/2395451791-1.jpg",
-        "https://images.cdn-cian.ru/images/2395451791-1.jpg"
-      ],
+      "strCategoryThumb": "https://optim.tildacdn.com/tild3733-3633-4436-a464-326637616430/-/format/webp/7.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
     },
     {
       "idCategory": "3",
       "strCategory": "Flat-3",
       "strPrice": "3820 ",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
-      ],
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "4",
       "strCategory": "Flat-4",
       "strPrice": "5000",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
-      ],
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "5",
       "strCategory": "Flat-5",
       "strPrice": "11000",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
-      ],
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "6",
       "strCategory": "Flat-6",
       "strPrice": "11000",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
-      ],
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     },
     {
       "idCategory": "7",
       "strCategory": "Flat-7",
       "strPrice": "11000",
-      "strCategoryThumb": [
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
-        "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg"
-      ],
+      "strCategoryThumb": "https://images.cdn-cian.ru/images/kvartira-kazan-aleksandra-kurynova-ulica-2344888527-1.jpg",
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²"
     }
 
@@ -170,5 +142,8 @@
 
   ]
 }
+
+
+
 
 
