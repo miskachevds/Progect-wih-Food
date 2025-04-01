@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import FotoList from "../../components/FotoList";
 import Preloader from "../../components/preloader/Preloader";
 
@@ -8,7 +8,10 @@ function Category() {
 
     const [allCat, setAllCat] = useState([]);
 
-    const [filteredCat, setFiltederCat] = useState([])
+    const [filteredCat, setFiltederCat] = useState([]);
+
+    const navigate = useNavigate();
+    let goBack = () => navigate(-1);
 
     useEffect(() => {
         fetch('http://localhost:3001/allСategories')
@@ -27,6 +30,7 @@ function Category() {
             {
                 !filteredCat.length ? <Preloader /> : <FotoList allCat={filteredCat} />
             }
+            <button className="btn" onClick={goBack}>Go Back</button>
         </div>
     )
 }
