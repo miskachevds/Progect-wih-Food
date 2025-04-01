@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams,useNavigate } from "react-router-dom";
 import FotoList from "../../components/FotoList";
 import Preloader from "../../components/preloader/Preloader";
+import './Category.css'
 
 function Category() {
     const { name } = useParams();//извлекает name из url

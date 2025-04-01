@@ -1,0 +1,12 @@
+.btn{
+    background: blue;
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 14px 30px 12px;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}

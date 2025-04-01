@@ -56,7 +56,13 @@
       "idCategory": "1",
       "strCategory": "Flat-1",
       "strPrice": "38290",
-      "strCategoryThumb": "https://optim.tildacdn.com/tild3037-3939-4339-b637-323964313835/-/format/webp/1.png",
+      "strCategoryThumb": [
+        "https://optim.tildacdn.com/tild3037-3939-4339-b637-323964313835/-/format/webp/1.png",
+        "https://optim.tildacdn.com/tild3437-6365-4464-a134-303739313265/-/format/webp/4.png",
+        "https://optim.tildacdn.com/tild3566-6236-4563-a632-656130383431/-/format/webp/6.png",
+        "https://optim.tildacdn.com/tild3261-3964-4434-a161-356636346136/-/format/webp/5.png",
+        "https://optim.tildacdn.com/tild3031-6366-4438-b265-316231616164/-/format/webp/94.png"
+      ],
       "strCategoryDescription": "Сдается 1-комн. квартира, 31 м²."
     },
     {
