@@ -29,7 +29,7 @@ function Category() {
     return (
         <div className="wrap">
             {
-                !filteredCat.length ? <Preloader /> : <FotoList allCat={filteredCat} />
+                !filteredCat.length ? <Preloader /> : <FotoList allCat={filteredCat} />//просунули пропсы под назв allcat
             }
             <button className="btn" onClick={goBack}>Go Back</button>
         </div>
