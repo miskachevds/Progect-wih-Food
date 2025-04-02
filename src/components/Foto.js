@@ -1,3 +1,5 @@
+import "./Foto.css";
+
 function Foto({ strCategoryThumb }) {//просунули пропс с фото
     return (
         <div className="foto">
