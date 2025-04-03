@@ -16,7 +16,7 @@ function FotoList({ allCat }) {
                             <div className="video-wrap">
                                 <iframe title="Video" src={`https://www.youtube.com/
                                 embed/${item.strYoutube.slice(-11)}`}
-                                frameBorder="0" allowFullScreen></iframe>
+                                frameborder="0" allowFullScreen></iframe>
                             </div>
                         </div>
                     ) : null
