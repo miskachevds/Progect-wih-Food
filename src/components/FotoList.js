@@ -8,7 +8,17 @@ function FotoList({allCat}){//принимаем пропс
                     <Foto key={item.idCategory} {...item} />//ключ key={item.idCategory} это уник ключ для каждого эл списка кот помогает react оптимизировать процесс рендеринга
                 )) //...item это синтк распространения кот,передает все свойства объекта item как отдельные пропсы в компонент Foto
             }
+            
+            {
+                allCat.strYoutube ? (<div>
+                    <h4>Video flet</h4>
+                    <div className="video-wrap">
+                    <iframe src="" title="YouTube video player" frameborder="0" ></iframe>
+                    </div>
+                    </div>) : null
+            }
         </div>
+        
     )
 }
 
