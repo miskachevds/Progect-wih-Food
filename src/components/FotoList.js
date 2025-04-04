@@ -1,4 +1,5 @@
 import Foto from "./Foto";
+import "./FotoList.css";
 
 function FotoList({ allCat }) {
     return (
